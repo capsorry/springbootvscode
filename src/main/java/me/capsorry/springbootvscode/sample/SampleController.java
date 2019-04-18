@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SampleController {
 
-    private static final String HELLO_VS_CODE = "Hello VS Code";
+    private static final String HELLO_VS_CODE = "Hello branch Code";
 
     @GetMapping("/hello")
     public String hello() {
